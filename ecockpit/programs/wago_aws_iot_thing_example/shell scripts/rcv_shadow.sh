@@ -1,0 +1,1 @@
+curl --tlsv1.2 --cacert $1 --cert $2 --key $3 --output /root/.rcv_shadow.json -X GET https://$4
